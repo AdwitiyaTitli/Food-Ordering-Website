@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(images/photo-1626777552726-4a6b54c97e46.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+ul{
+    float: left;
+}
+ul li{
+    display: inline-block;
+    margin-top: 40px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: azure;
+    padding: 10px 40px;
+    
+    border: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: coral;
+    color: azure;
+}
+.logo{
+    float:left;
+    width: 30px;
+    height: 10px;
+}
+ul li.active a{
+    background-color: coral;
+    color: azure;
+}
+.title{
+    color: burlywood;
+    font-family: fantasy;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.title h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
+    color: aliceblue;
+    left: 20%;
+    font-weight: bold;
+   font-size: 70px;
+}
+.order a{
+    color: chartreuse;
+    font-family: fantasy;
+    position: absolute;
+    top: 70%;
+    left: 13%;
+    text-decoration: none;
+    transition: 0.6s ease;
+    margin-top: 2%;
+    
+}
+.order a:hover{
+    background-color:white;
+    color: crimson;
+    padding: 10px 20px;
+}
+.dish h1{
+   padding: 20x;
+   font-family: 'Times New Roman', Times, serif;
+   margin-top: 10%;
+   text-align: center;
+}
+td{
+   padding-left: 90px;
+   padding-right: 90px;
+
+   
+}
+.dish td img{
+    height: 400px;
+    width: 300px;
+    transition: 0.1 ease;
+}
+.dish td img:hover{
+    height: 370px;
+    width: 270px;
+}
+.tag td{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.resturent h1{
+    padding: 10x;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10%;
+    margin-bottom: none;
+    text-align: center;
+}
+.resturent td img{
+    padding-left: 20%;
+    padding-bottom: 10%;
+    padding-top: 20%;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+}
+.dish img{
+    height: 100px;
+    width: 100px;
+    float: left;
+    left: 14%;
+    top: 10%;
+}
+.resturent img{
+    height: 100px;
+    width: 100px;
+    float: left;
+    left: 14%;
+    top: 10%;
+}
+.resturent tr{
+   border-spacing:10px ;
+}
+.write{
+    border: solid white 30px;  
+    background-color: rgb(238, 177, 157);
+    justify-content: center;
+    border-radius: 15px;
+    
+}
+.resturent td{
+    height: 60px;
+}
+.review h1{
+    padding: 10x;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10%;
+    margin-bottom: none;
+    text-align: center;
+}
+.review img{
+    height: 100px;
+    width: 100px;
+    float: left;
+    left: 14%;
+    top: 10%;
+}
+.revImg td img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.revWrite td{
+    font-family: fantasy;
+    font-size: medium;
+    padding-top: 2%;
+}
+label{
+    font-family: cursive;
+    font-size: 30px;
+    color: darkblue;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+input{
+    width: 40%;
+    height: 5%;
+   margin-left: 30%;
+}
+.button{
+    border: none;
+    color: white;
+    padding: 16px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: rgb(245, 112, 3); 
+  color: white;
+}
+.contacts img{
+    height: 100px;
+    width: 100px;
+    float: left;
+    left: 14%;
+    top: 10%;
+}
+.contacts h1{
+    padding: 10x;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10%;
+    margin-bottom: none;
+    text-align: center;
+}
+.contacts h2{
+    text-align: center;
+    color: grey;
+    font-family: cursive;
+    
+}
+.contacts table td{
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+}
